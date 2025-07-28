@@ -560,19 +560,19 @@ color:var(--second-color);
 }
 
 .bar .css:before{
-    width:85%;
-}
-
-.bar .javascript:before{
     width:70%;
 }
 
-.bar .react:before{
+.bar .javascript:before{
     width:60%;
 }
 
+.bar .react:before{
+    width:40%;
+}
+
 .bar .ml:before{
-    width:85%;
+    width:35%;
 }
 
 .experience-card{
@@ -1346,7 +1346,10 @@ display:flex;
     margin-right:80px;
 } */
 
-
+ .row {
+      display: flex;
+      gap: 150px; 
+    }
 
 
 
